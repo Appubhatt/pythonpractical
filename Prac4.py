@@ -1,3 +1,4 @@
+#Find runner-up from given list
 size=int(input())
 list1=[]
 for a in range(1,size+1):
@@ -13,3 +14,5 @@ for i in range(1,size):
     elif list1[i] > SecLar and Largest != list1[i]:
         SecLar = list1[i]
 print(SecLar)
+print('''Created by: Apurva Bhatt
+Id:D21ce173''')
